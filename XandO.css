@@ -1,0 +1,72 @@
+h1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: darkviolet;
+}
+table, td
+{
+    table-layout: fixed;
+    position:relative;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 100px;
+}
+td:hover
+{
+    background-color: floralwhite;
+    cursor:pointer;
+}
+.active
+{
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    color:black;
+    position:relative;
+}
+.passive
+{
+    position: relative;
+    font-size: 40px;
+    font-weight: normal;
+    color:gray;
+    text-decoration: transparent;
+}
+.p1
+{
+    font-size: 23px;
+}
+.p2
+{
+    font-size: 23px;
+}
+.win
+{
+    background-color: rgb(238, 212, 252);
+    color: rgb(15, 221, 94);
+}
+#newGame:hover{
+    background-color: rgb(29, 167, 185);
+    color: white;
+    cursor: pointer;
+}
+#newGame{
+    position: relative;
+    bottom: 70;
+    left: 20px;
+    margin: 15;
+    background-color: rgb(47, 145, 201);
+    border: 10px solid rgb(131, 180, 255);
+    border-style: inset;
+    color: black;
+    display: block;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    margin-bottom: 4px;
+}
